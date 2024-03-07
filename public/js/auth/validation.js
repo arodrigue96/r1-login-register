@@ -15,7 +15,7 @@ export const isValidUsername = (username) => {
 export const isValidPassword = (password) => {
   let isValid;
 
-  // Incluye aquí tu implementación para validar el nombre de usuario
+  // Incluye aquí tu implementación para validar la password
   // Tienes a tu disposición una variable llamada password
   // que contiene el valor del campo de contraseña
   //
@@ -29,7 +29,7 @@ export const isValidPassword = (password) => {
 export const isSamePassword = (password1, password2) => {
   let isSame;
 
-  // Incluye aquí tu implementación para validar el nombre de usuario
+  // Incluye aquí tu implementación para validar que las dos passwords son iguales
   // Tienes a tu disposición una variable llamada password1 y otra password2
   // que contienen los valores de los campos de contraseñas
   //
