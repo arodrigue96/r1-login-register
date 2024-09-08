@@ -6,7 +6,7 @@ export const isValidUsername = (username) => {
 
 export const isValidPassword = (password) => {
   // Expresiones regulares utilizadas:
-  const containUpperCase = /[A-Z]/;
+  const containUpperCase = /\p{Lu}+/u;
   const containNumber = /[0-9]/;
 
   const isValid =
